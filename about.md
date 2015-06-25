@@ -8,4 +8,4 @@ Server architecture/implementation.Front-end architecture&optimization
 
 ### Contact me
 
-[email#domain.com](mailto:email#domain.com)
+[joesonw#gmail.com](mailto:joesonw#gmail.com)
