@@ -4,8 +4,12 @@ title: About
 permalink: /about/
 ---
 
-Server architecture/implementation.Front-end architecture&optimization
+This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
 
-### Contact me
+You can find the source code for the Jekyll new theme at:
+{% include icon-github.html username="jglovier" %} /
+[jekyll-new](https://github.com/jglovier/jekyll-new)
 
-[joesonw#gmail.com](mailto:joesonw#gmail.com)
+You can find the source code for Jekyll at
+{% include icon-github.html username="jekyll" %} /
+[jekyll](https://github.com/jekyll/jekyll)

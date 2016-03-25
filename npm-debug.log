@@ -1,0 +1,77 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/Users/Joesonw/.nvm/versions/node/v0.12.7/bin/node',
+1 verbose cli   '/Users/Joesonw/.nvm/versions/node/v0.12.7/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   'jekyll',
+1 verbose cli   '-g' ]
+2 info using npm@2.11.3
+3 info using node@v0.12.7
+4 verbose install initial load of /Users/Joesonw/.nvm/versions/node/v0.12.7/lib/package.json
+5 verbose readDependencies loading dependencies from /Users/Joesonw/.nvm/versions/node/v0.12.7/lib/package.json
+6 silly cache add args [ 'jekyll', null ]
+7 verbose cache add spec jekyll
+8 silly cache add parsed spec { raw: 'jekyll',
+8 silly cache add   scope: null,
+8 silly cache add   name: 'jekyll',
+8 silly cache add   rawSpec: '',
+8 silly cache add   spec: '*',
+8 silly cache add   type: 'range' }
+9 silly addNamed jekyll@*
+10 verbose addNamed "*" is a valid semver range for jekyll
+11 silly addNameRange { name: 'jekyll', range: '*', hasData: false }
+12 silly mapToRegistry name jekyll
+13 silly mapToRegistry using default registry
+14 silly mapToRegistry registry https://registry.npmjs.org/
+15 silly mapToRegistry uri https://registry.npmjs.org/jekyll
+16 verbose addNameRange registry:https://registry.npmjs.org/jekyll not in flight; fetching
+17 verbose request uri https://registry.npmjs.org/jekyll
+18 verbose request no auth needed
+19 info attempt registry request try #1 at 5:53:08 PM
+20 verbose request using bearer token for auth
+21 verbose request id bfc159f39a5fdeaf
+22 http request GET https://registry.npmjs.org/jekyll
+23 http 200 https://registry.npmjs.org/jekyll
+24 silly get cb [ 200,
+24 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+24 silly get     etag: '"6B3FHP7MQ0I56ZRAR3XMO4LYW"',
+24 silly get     'content-type': 'application/json',
+24 silly get     'cache-control': 'max-age=300',
+24 silly get     'content-length': '4484',
+24 silly get     'accept-ranges': 'bytes',
+24 silly get     date: 'Fri, 25 Mar 2016 09:53:10 GMT',
+24 silly get     via: '1.1 varnish',
+24 silly get     connection: 'keep-alive',
+24 silly get     'x-served-by': 'cache-sin6924-SIN',
+24 silly get     'x-cache': 'MISS',
+24 silly get     'x-cache-hits': '0',
+24 silly get     'x-timer': 'S1458899589.665839,VS0,VE865',
+24 silly get     vary: 'Accept' } ]
+25 verbose get saving jekyll to /Users/Joesonw/.npm/registry.npmjs.org/jekyll/.cache.json
+26 silly addNameRange number 2 { name: 'jekyll', range: '*', hasData: true }
+27 silly addNameRange versions [ 'jekyll', [ '3.0.0-beta1' ] ]
+28 verbose stack Error: No compatible version found: jekyll@'*'
+28 verbose stack Valid install targets:
+28 verbose stack ["3.0.0-beta1"]
+28 verbose stack
+28 verbose stack     at installTargetsError (/Users/Joesonw/.nvm/versions/node/v0.12.7/lib/node_modules/npm/lib/cache/add-named.js:274:12)
+28 verbose stack     at next (/Users/Joesonw/.nvm/versions/node/v0.12.7/lib/node_modules/npm/lib/cache/add-named.js:253:17)
+28 verbose stack     at setData (/Users/Joesonw/.nvm/versions/node/v0.12.7/lib/node_modules/npm/lib/cache/add-named.js:230:5)
+28 verbose stack     at RES (/Users/Joesonw/.nvm/versions/node/v0.12.7/lib/node_modules/npm/node_modules/inflight/inflight.js:23:14)
+28 verbose stack     at f (/Users/Joesonw/.nvm/versions/node/v0.12.7/lib/node_modules/npm/node_modules/once/once.js:17:25)
+28 verbose stack     at fixName (/Users/Joesonw/.nvm/versions/node/v0.12.7/lib/node_modules/npm/lib/cache/add-named.js:29:5)
+28 verbose stack     at saved (/Users/Joesonw/.nvm/versions/node/v0.12.7/lib/node_modules/npm/lib/cache/caching-client.js:173:7)
+28 verbose stack     at FSReqWrap.oncomplete (fs.js:95:15)
+29 verbose cwd /Users/Joesonw/joesonw.github.io
+30 error Darwin 14.5.0
+31 error argv "/Users/Joesonw/.nvm/versions/node/v0.12.7/bin/node" "/Users/Joesonw/.nvm/versions/node/v0.12.7/bin/npm" "install" "jekyll" "-g"
+32 error node v0.12.7
+33 error npm  v2.11.3
+34 error code ETARGET
+35 error notarget No compatible version found: jekyll@'*'
+35 error notarget Valid install targets:
+35 error notarget ["3.0.0-beta1"]
+35 error notarget
+35 error notarget This is most likely not a problem with npm itself.
+35 error notarget In most cases you or one of your dependencies are requesting
+35 error notarget a package version that doesn't exist.
+36 verbose exit [ 1, true ]
