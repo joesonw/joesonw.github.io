@@ -9,7 +9,10 @@
 title: Qiaosen Huang's Tech Space 
 email: joeosnw@gmail.com 
 description: > # this means to ignore newlines until "baseurl:"
-  Tech enthusiast. Currently working on Node.js and Golang. 
+  Tech enthusiast.
+  
+  Currently working on Node.js and Golang. 
+  
   Loveeeeeeeeee large distributed system architecture designing!
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://joeosnw.github.io" # the base hostname & protocol for your site
