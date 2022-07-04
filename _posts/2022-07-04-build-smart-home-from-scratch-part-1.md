@@ -3,6 +3,10 @@ layout: post
 title: "从头打造全屋智能家庭 (持续更新), Part I - 网关平台/协议己软件的选择"
 ---
 
+先上个全家福
+![](/assets/images/build-smart-home-from-scratch-part-1-1.jpg)
+
+
 ## 序
 在此之前, 我已经在租来的房间中尝试了多种智能家居以及网关系统. 此次借搬入新买的房子的之机, 我将从头打造一个全屋智能的智慧家庭. 然后也记录下来, 与君共享. 一个是分享当中一些误区, 坑点. 二是以后改进时有据可循.
 
@@ -56,7 +60,7 @@ title: "从头打造全屋智能家庭 (持续更新), Part I - 网关平台/协
 
 `HomeKit` __Integration__ 是打通 `HomeKit` 和 `Home Assistant` 的桥梁.
 
-### Apple TV (Integration)
+#### Apple TV (Integration)
 
 虽然这个 __Integration__ 叫做 `Apple TV`, 但是其也可以整合 `HomePod`. 这个 __Integration__ 可以让 `Apple TV` 或 `HomePod` 作为一个媒体播放器, 可以将监控视频通过 _Airplay_ 协议投屏, 也可以使用 _TTS_ 实时生成语音投放.
 
