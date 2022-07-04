@@ -4,7 +4,7 @@ title: "从头打造全屋智能家庭 (持续更新), Part I - 网关平台/协
 ---
 
 先上个全家福
-![](/assets/images/build-smart-home-from-scratch-part-1-1.jpg)
+![](/images/img-build-smart-home-from-scratch-part-1-1.jpg)
 
 
 ## 序
