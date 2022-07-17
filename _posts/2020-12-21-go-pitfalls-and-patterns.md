@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Go Pitfalls and Patterns (持续更新中)
+title: Go Pitfalls and Patterns
 ---
 
 ## 1. 如何获取interface的reflect.Type
