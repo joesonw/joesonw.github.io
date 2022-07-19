@@ -10,7 +10,10 @@ title: "从头打造全屋智能家庭 (持续更新), Part II - 硬件选择, �
 
 #### Uunifi Dream Machine PRO Special Edition, UDM-PRO-SE
 核心网络设备, 因为有各个房间ap面板(目前还没安装), 和自己托管的监控方案的需求. 直接一步到位购入了 UDM-PRO-SE, 其中 SE 是升级版, 多了POE和POE+供电, 正好适用于摄像头和AP. 不用再买一台POE的交换机(如果设备不多的话)
+
 Unifi 的产品最方便的是可以无缝接入 Home Assistant, 包括客户端信息 (是否联网, 所在AP). Unifi Protect 也可以无缝接入, 不仅仅是有视频源, 还有摄像头自带的动作侦测, 开启红外等功能均已接入
+
+入坑指南: https://www.chiphell.com/thread-2421885-1-1.html
 
 #### SONOFF ZBDongle-Plus 
 Zigbee天线, 大概100左右. 支持 `Zigbee 3.0` 协议. 即插即用, 固件更新也很方便, 可以直接使用 PC/树莓派 等设备直接通过 usb 更新. `Zigbee2MQTT` 完美支持.
@@ -36,6 +39,8 @@ Zigbee天线, 大概100左右. 支持 `Zigbee 3.0` 协议. 即插即用, 固件�
 # 实操
  
  #### 安装 Home Assistant
+ 
+ #### Node Red
  
 
 
