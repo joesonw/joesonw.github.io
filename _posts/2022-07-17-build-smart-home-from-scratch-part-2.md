@@ -39,10 +39,38 @@ Zigbee天线, 大概100左右. 支持 `Zigbee 3.0` 协议. 即插即用, 固件�
 # 实操
  
  #### 安装 Home Assistant
+ > https://www.home-assistant.io/installation/
  
- #### Node Red
+ 如果是使用 RaspberryPi, 可以直接使用官方 image 直接烧录. 
  
+ 我由于还要在机器上单独装 Prometheus, Grafana 等服务, 所以是在 Debian 的基础上安装的. 如果你也是在现有系统上装 Home Assistant 的话, 强烈建议使用 Supervised 的方式安装, 这样后续安装 Addon 的时候可以网页 GUI 一键安装. 步骤大致如下:
+ 
+```sh
+#1 如果没有安装 Docker 的话
+sudo apt-get update -y
+sudo apt-get install ca-certificates curl gnupg lsb-release -y
+sudo mkdir -p /etc/apt/keyrings
+curl -fsSL https://download.docker.com/linux/debian/gpg | sudo gpg --dearmor -o /etc/apt/keyrings/docker.gpg
+echo "deb [arch=$(dpkg --print-architecture) signed-by=/etc/apt/keyrings/docker.gpg] https://download.docker.com/linux/debian $(lsb_release -cs) stable" | sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
+sudo apt-get update -y
+sudo apt-get install docker-ce docker-ce-cli containerd.io docker-compose-plugin -y
 
+#2 安装 Home Assistant os-agent
+wget https://github.com/home-assistant/os-agent/releases/download/1.2.2/os-agent_1.2.2_linux_x86_64.deb
+sudo dpkg -i os-agent_1.2.2_linux_x86_64.deb
+gdbus introspect --system --dest io.hass.os --object-path /io/hass/os #确认安装成功
+
+#3 安装 Home Assistant Supervised
+apt-get install jq wget curl udisks2 libglib2.0-bin network-manager dbus -y
+wget https://github.com/home-assistant/supervised-installer/releases/latest/download/homeassistant-supervised.deb
+dpkg -i homeassistant-supervised.deb
+```
+ 具体还可以参考 [这里](https://github.com/home-assistant/supervised-installer) [这里](https://www.home-assistant.io/installation/linux#install-home-assistant-supervised) 还有 [这里](https://github.com/home-assistant/os-agent/tree/main#using-home-assistant-supervised-on-debian=)
+ 
+ #### NodeRed && Zigbee2MQTT
+ 
+ #### NodeRed 自动化
+ 
 
 
 # 注意事项
