@@ -67,10 +67,24 @@ dpkg -i homeassistant-supervised.deb
 ```
  具体还可以参考 [这里](https://github.com/home-assistant/supervised-installer) [这里](https://www.home-assistant.io/installation/linux#install-home-assistant-supervised) 还有 [这里](https://github.com/home-assistant/os-agent/tree/main#using-home-assistant-supervised-on-debian=)
  
- #### NodeRed && Zigbee2MQTT
+ #### 小小的电路改造
  
- #### NodeRed 自动化
+ 由于现在的房子都是精装修, 然后又懒, 又不想多花钱, 就没重新装修了.
  
+ 那么带来一个问题, 开关盒(暗盒)里面都是没有零线的, 而我又想要使用 _零火_ 版智能开关. 于是乎把开关盒里面一根控制氛围灯的线给征用了, 把氛围灯给淘汰掉了.
+ 
+ 原本的走线如下:
+ ![](/images/img-build-smart-home-from-scratch-part-2-4.png)
+ 
+ 其中, 红色为火线(L), 蓝线为零线(N), 黑色为控制线. 棕色为原本的开关, 紫色为_零火_ 版智能开关.
+ 
+ 可以看见, 开关盒里面只有火线进来, 和灯的控制线出去, 是没有零线的. 但每个灯泡上是肯定有一根零线的. 于是如下图, 我们可以这样改造:
+ 
+ ![](/images/img-build-smart-home-from-scratch-part-2-3.png)
+ 
+ 这个就是把其中一个灯泡的零线给借用过来, 把原本就存在的控制线给短接. 这样实质上这根控制线就是一根零线了.
+ 
+ 下一期我会把安装另一个开关盒的视频尝试给录制剪辑后放上来供大家参考.
 
 
 # 注意事项
@@ -97,5 +111,7 @@ dpkg -i homeassistant-supervised.deb
 
 文本教程: https://sonoff.tech/wp-content/uploads/2022/01/SONOFF-Zigbee-3.0-USB-dongle-plus-firmware-flashing-.pdf
 
+#### 添加 HomeKit 的智能设备到 Home Assistant 中
+需要一个已存在的 HomeKit 家庭 (通过 iPad 或者 Homepod). 通过手机扫码将设备加入到 HomeKit 中后, 然后去 Home App 中将此设备移除. 此时该设备会处于待发现状态, Home Assistant 便可将其 Adopt.
 
 _(未完待续...)_
