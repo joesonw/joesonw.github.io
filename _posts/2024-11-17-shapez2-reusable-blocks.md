@@ -7,4 +7,6 @@ title: "Shapez 2 reusable blocks, all 100% efficiency"
 >
 > 
 
-![](/images/images/shapez2/Rotator.webp)
+<picture>
+  <source srcset="/images/images/shapez2/Rotator.webp" type="image/webp">
+</picture>
