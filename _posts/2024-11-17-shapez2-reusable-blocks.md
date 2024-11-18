@@ -18,6 +18,8 @@ title: "Shapez 2 reusable blocks, all 100% efficiency"
 
 <img src="/images/shapez2/Rotator.webp" type="image/webp">
 
+> 90 degree rotator, buttons for toggle clockwise/counter-clockwise, and output to straight or side
+
 
 <details>
   <summary>Show Code</summary>
@@ -30,6 +32,7 @@ title: "Shapez 2 reusable blocks, all 100% efficiency"
 
 
   <img srcset="/images/shapez2/Painter.webp" type="image/webp">
+  > Paint shapes, button for toggle output to straight or side
 
 <details>
   <summary>Show Code</summary>
@@ -40,7 +43,7 @@ title: "Shapez 2 reusable blocks, all 100% efficiency"
 </details>
 
  <img srcset="/images/shapez2/Splitter.webp" type="image/webp">
-
+> Cutter/Splitter, emit both haves, buttons for toggle halves to go for each side
 
 <details>
   <summary>Show Code</summary>
@@ -52,6 +55,7 @@ title: "Shapez 2 reusable blocks, all 100% efficiency"
 
 
   <img srcset="/images/shapez2/Stacker.webp" type="image/webp">
+> Stack two shapes, button for toggle which input goes on top (default straight in bottom)
 
 <details>
   <summary>Show Code</summary>
@@ -63,6 +67,7 @@ title: "Shapez 2 reusable blocks, all 100% efficiency"
 
 
   <img srcset="/images/shapez2/Cornerer.webp" type="image/webp">
+> Split shapes and stacked together, get output of NE and SW quaters.
 
 
 <details>
