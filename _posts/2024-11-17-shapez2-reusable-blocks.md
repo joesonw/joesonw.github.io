@@ -6,9 +6,17 @@ title: "Shapez 2 reusable blocks, all 100% efficiency"
 > This assumes you upgrades are at the same level. (cutting and stackgins at 1/4 belt speed)
 >
 > 
+<style>
+  pre {
+    white-space: pre-wrap;       /* Since CSS 2.1 */
+    white-space: -moz-pre-wrap;  /* Mozilla, since 1999 */
+    white-space: -pre-wrap;      /* Opera 4-6 */
+    white-space: -o-pre-wrap;    /* Opera 7 */
+    word-wrap: break-word;       /* Internet Explorer 5.5+ */
+  }
+</style>
 
-
-  <img src="/images/shapez2/Rotator.webp" type="image/webp">
+<img src="/images/shapez2/Rotator.webp" type="image/webp">
 
 
 <details>
