@@ -43,7 +43,7 @@ title: "Shapez 2 reusable blocks, all 100% efficiency"
 </details>
 
  <img srcset="/images/shapez2/Splitter.webp" type="image/webp">
-> Cutter/Splitter, emit both haves, buttons for toggle halves to go for each side
+> Cutter/Splitter, emit both halves, buttons for toggle halves to go for each side
 
 <details>
   <summary>Show Code</summary>
