@@ -44,6 +44,10 @@ func (e *ErrorWithAttrs) Error() string {
 	return e.err.Error()
 }
 
+func (e *ErrorWithAttrs) Unwrap() error {
+	return e.err
+}
+
 func Errorf(format string, args ...any) error {
 	var attrs []slog.Attr
 	for _, arg := range args {
