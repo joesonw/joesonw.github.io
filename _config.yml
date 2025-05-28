@@ -6,14 +6,11 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-title: Qiaosen Huang's Tech Space 
+title: Joeson Huang's Tech Space 
 email: joeosnw@gmail.com 
 description: > # this means to ignore newlines until "baseurl:"
-  Tech enthusiast.
+  Working on Go and React mostly. Into all kinds of devop and infra stuff as well!
   
-  Currently working on Node.js and Golang. 
-  
-  Loveeeeeeeeee large distributed system architecture designing!
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://joeosnw.github.io" # the base hostname & protocol for your site
 github_username:  joesonw
